@@ -1,0 +1,52 @@
+#buscar {
+    border-radius: 10px;
+    width: 313px;
+    height: 30px;
+    position: relative;
+    left: 1200px;
+    bottom: 70px;
+    border-color: #BA4848;
+}
+
+#lupa {
+    position: relative;
+    left: 1200px;
+    bottom: 70px;
+}
+
+#logo {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 180px;
+    height: auto;
+}
+
+hr {
+    position: relative;
+    bottom: 40px;
+    width: 1850px;
+    height: 0px;
+    border-color:#BA4848;
+}
+
+nav {
+    position: relative;
+    top: 150px;
+    color: white;
+}
+
+.sideBar {
+    position: relative;
+    width: 140px;
+    height: 600px;
+    background-color: #BA4848;
+    bottom: 30px;
+    border-radius: 100px 100px 0px 0px;
+}
+
+main {
+    position: relative;
+    left: 160px;
+    bottom: 650px;
+}
