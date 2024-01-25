@@ -21,6 +21,12 @@ header nav ul {
     margin-top: auto;
     margin-bottom: auto;
     padding: 8px;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 50px;
+    list-style-type: none;
 }
 
 /*header h2 {
