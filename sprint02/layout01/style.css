@@ -1,7 +1,7 @@
 * {
     background-color: #F8F8F8;
-    margin: 8px ;
-    padding: 8px;
+    margin: 0px 16px ;
+    padding: 0px;
 }
 
 header {
@@ -9,6 +9,12 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    align-items: center;
+}
+
+.logoCabecalho {
+    margin: 0px;
+    padding: 0px;
 }
 
 .pesquisa nav ul {
