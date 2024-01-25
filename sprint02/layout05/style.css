@@ -13,6 +13,14 @@ header {
 
 header nav {
     background-color: aqua;
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 8px;
 }
 
 /*header h2 {
