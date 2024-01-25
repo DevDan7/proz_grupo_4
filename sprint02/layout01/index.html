@@ -7,87 +7,109 @@
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
-<header>
-    <div id="root">
-        <div class="sc-satoz cabecalho">
-            <div class="sc-conteudo container-fluid">
-                <div class="nav.left-container">
-                    <div class="sc-espacamento">
-                        <img src="/imagens/logo-g4.svg">
-                    </div>
-                </div>
-        </div>
-    </div>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Metas</li>
-            <li>Mentorias</li>
-            <li>Planejamento</li>
-            <li>Conexões</li>
-            <li>Grupo de Estudos</li>
-        </ul>
-    </nav>
-</header>
 <body>
+    <header>
+        <div class="logoCabecalho">
+            <img src="/imagens/logo-g4.svg">
+        </div>
+        <div class="pesquisa">
+            <nav>
+                <ul>
+                    <li>
+                        <input type="text" placeholder="O que você procura?" id="buscar">
+                    </li>
+                    <li>
+                        <img src="/imagens/icones/icon.cabecalho.mensagem.svg">
+                    </li>
+                    <li>
+                        <img src="/imagens/icones/icon.cabecalho.notifica.svg">
+                    </li>
+                    <li>
+                        <img src="/imagens/icones/icon.cabecalho.perfil.svg">
+                    </li>
+                </ul>
+            </nav>  
+        </div>   
+    </header>
     <main>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Metas</li>
+                    <li>Mentorias</li>
+                    <li>Planejamento</li>
+                    <li>Conexões</li>
+                    <li>Grupo de Estudos</li>
+                </ul>
+            </nav>
+        </div>
         <section>
-            <h2>Bem vindo</h2>
-            <h3>No momento, não há sessões agendadas por você</h3>
-            <h3>Você pode buscar por mentores e agendar uma sessão</h3>
+            <h1>Que bom ver você por aqui!</h1>
+            <h3>A gente te ajuda a potencializar suas habilidades</h3>
+        </section>
+
+        <div><h2>Encontre profissionais disponíveis para mentoria no tema que você precisa</h2></div>
+        <section>
+            <p>Marcelo Kim</p>
+            <p>Front-end na Meta <b>BR</b></p>
+            <p>4 sessões (2 avaliações)</p>
+            <p>Disponível em</p>
+            <p><b>02 de fevereiro</b></p>  
+            <button>Agendar</button>           
+        </section>
+        <section>
+            <p>Gabriela da Costa</p>
+            <p>Full stack Developer na Google<b>BR</b></p>
+            <p>12 sessões (9 avaliações)</p>
+            <p>Disponível em</p>
+            <p><b>05 de fevereiro</b></p>
+            <button>Agendar</button>            
+        </section>
+        <div><h2>Mentores que dão match com o seu perfil de busca</h2></div>
+
+        <div><h2>Seus agendamentos recentes</h2></div>
+        <h4>Ver todos</h4>
+        <button>></button>
+        <section>
+            <p>Camila Lira</p>
+            <p>Front-end na Adidas<b>BR</b></p>
+            <p>3 sessões realizadas</p>
+        </section>
+        <section>
+            <p>Pedro Martins</p>
+            <p>Back-end na Vivo<b>BR</b></p>
+            <p>1 sessão realizada</p>
         </section>
 
         <section>
-            <h3>Mentores em destaque</h3>
-            <p>MAURÍCIO DE LIMA</p>
-            <p>Desenvolvedor Front-End | HTML | CSS |JavaScript</p>
-            <p>Idioma: Português</p>
-            <p>24 sessões realizadas (18 avaliações)</p>
-        </section>
-
-        <section>
-            <h3>Conexões recentes</h3>
-            <p>LUISA MORAES</p>
-            <button>Enviar mensagem</button>
-            <p>Desenvolvedora Fullstack, Future</p>
-        </section>
-
-        <section>
-            <h3>Dicas que podem te ajudar na hora da mentoria</h3>
+            <h2>O desempenho do seu perfil</h2>
+            <p>Nível juninho</p>
             <button>></button>
-            <p>Planeje rua agenda! Planeje as perguntas e os tópicos que você gostaria de discutir. Se vocês quiserem trabalhar juntos em metas de longo prazo, reservem um tempo para discutir as expectativas um do outro.</p>
         </section>
 
         <section>
-            <h3>O desempenho do seu perfil</h3>
-            <p>Nível Juninho</p>
-            <button>Saiba mais</button>
+            <h2>Pontuação por desempenho</h2>
+            <p><h2>26</h2></p>
+            <button>Indique e ganhe pontos</button>
         </section>
 
         <section>
-            <h3>Indique nossa plataforma e ganhe bônus</h3>
-            <p>A cada amigo que você indicar e se torne um membro ativo na plataforma, você ganha 10 pontos.</p>
-            <p>Pontuação atual: 40/100</p>
-            <button>Saiba mais</button>
+            <h2>Já pensou em receber mentorias <b><u><i>Premium</i></u></b>?</h2>
+            <ul>
+                <li>orientação de gestão do tempo de forma personalizada</li>
+                <li>mentorias mais longas</li>
+            </ul>
+            <button>Veja nossos planos</button>
         </section>
-        
+
         <section>
-            <h3>Gestão de tempo</h3>
-            <p>Podemos te ajudar a montar um cronograma funcional que te ajude a alcançar suas metas, conforme seu perfil.</p>
-            <button>Saiba mais</button>
+            <h2>Dicas para aproveitar o máximo possível nas suas sessões de mentoria</h2>
+            <h3>1. Anote suas dúvidas</h3>
+            <button>></button>
+            <h4>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus.</h4>
         </section>
     </main>
 </body>
 
-<p></p>
-
-<footer>
-    <img src="/imagens/logo-g4.svg" alt="Logo do grupo 4">
-    <ul>
-        <li><a href="https://www.instagram.com/">Instagram</a></li>
-        <li>Contato</li>
-        <li>Sobre nós</li>
-    </ul>
-</footer>
-</body>
 </html>
