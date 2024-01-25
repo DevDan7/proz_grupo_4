@@ -1,25 +1,40 @@
-#buscar {
-    border-radius: 10px;
-    width: 313px;
-    height: 30px;
-    position: relative;
-    left: 1200px;
-    bottom: 70px;
-    border-color: #BA4848;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-#lupa {
+header {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+header nav {
+    background-color: aqua;
+}
+
+/*header h2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 20px;
+    width: 20px;
+}*/
+
+/*#lupa {
     position: relative;
-    left: 1200px;
+    left: 120px;
     bottom: 70px;
 }
 
 #logo {
     position: relative;
-    top: 20px;
-    left: 20px;
     width: 180px;
     height: auto;
+    justify-content: flex-start;
 }
 
 hr {
@@ -30,12 +45,6 @@ hr {
     border-color:#BA4848;
 }
 
-nav {
-    position: relative;
-    top: 150px;
-    color: white;
-}
-
 .sideBar {
     position: relative;
     width: 140px;
@@ -43,10 +52,17 @@ nav {
     background-color: #BA4848;
     bottom: 30px;
     border-radius: 100px 100px 0px 0px;
+    padding-top: 100px;
+
+}
+
+.sideBar nav ul li {
+    list-style-type: none;
+    text-decoration: none;
 }
 
 main {
     position: relative;
     left: 160px;
     bottom: 650px;
-}
+}*/
