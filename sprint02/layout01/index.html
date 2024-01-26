@@ -15,7 +15,7 @@
         <nav>
             <ul>
                 <li>
-                    <input type="text" placeholder="O que você procura?"/ id="buscar">
+                    <input type="text" placeholder="O que você procura?" id="buscar">
                 </li>
                 <li>
                     <button><img src="/imagens/icones/icon.cabecalho.mensagem.svg"></button>
@@ -30,7 +30,7 @@
         </nav> 
     </header>
     
-    <aside>
+    <aside id="aside-1">
         <div class="sideBar">
             <nav>
                 <div>
@@ -70,28 +70,47 @@
         </div>
 
         <div><h2>Encontre profissionais disponíveis para mentoria no tema que você precisa</h2></div>
+        <section id="cards">
         <section>
-        <div class="cardMentor1">
+
+        <div class="cardMentor">
             <img src="/imagens/cardMentor1-foto.svg" alt="foto Mentor Sugerido 1" id="fotoMentorSugerido1">
-            <p>Marcelo Kim</p>
-            <p>Front-end na Meta <b>BR</b></p>
-            <p>4 sessões (2 avaliações)</p>
-            <p>Disponível em</p>
-            <p><b>02 de fevereiro</b></p>  
-            <button>Agendar</button>           
+            <span>
+            <p>Marcelo Kim  <b>BR</b></p> 
+
+                <p>Front-end na Meta </p>
+                <p>4 sessões (2 avaliações)</p>
+            </span>
+            <div class ="bottom-card">
+                <span>
+
+                    <p>Disponível em</p>
+                    <p><b>02 de fevereiro</b></p>  
+                </span>
+                <button>Agendar</button>          
+            </div>          
         </section>
         </div>
         <section>
-        <div class="cardMentor2">
+        <div class="cardMentor">
             <img src="/imagens/cardMentor2-foto.svg" alt="foto Mentor Sugerido 2" id="fotoMentorSugerido2">
-            <p>Gabriela da Costa</p>
-            <p>Full stack Developer na Google <b>BR</b></p>
-            <p>12 sessões (9 avaliações)</p>
-            <p>Disponível em</p>
-            <p><b>05 de fevereiro</b></p>
-            <button>Agendar</button>            
+                
+            <span>
+                <p>Gabriela da Costa  <b>BR</b></p>
+                <p>Full stack Developer na Google </p>
+                <p>12 sessões (9 avaliações)</p>
+            </span>
+            <div class="bottom-card">
+                <span>
+     
+                    <p>Disponível em</p>
+                    <p><b>05 de fevereiro</b></p>
+                </span>
+                <button>Agendar</button>            
+            </div>         
         </section>
         </div>
+    </section>
         <div><h2>Mentores que dão match com o seu perfil de busca</h2></div>
 
         <div><h2>Seus agendamentos recentes</h2></div>
@@ -101,7 +120,7 @@
             <div class="cardAgendRecent1">
             <img src="/imagens/cardAgendRecent1-foto.svg" alt="foto Mentor Recent 1" id="fotoMentorRecent1">
             <p>Camila Lira</p>
-            <p>Front-end na Adidas <b>BR</b></p>
+            <p>Front-end na Adidas  <b>BR</b></p>
             <p>3 sessões realizadas</p>
             </div>
         </section>
@@ -109,7 +128,7 @@
             <div class="cardAgendRecent2">
             <img src="/imagens/cardAgendRecent2-foto.svg" alt="foto Mentor Recent 2" id="fotoMentorRecent2">
             <p>Pedro Martins</p>
-            <p>Back-end na Vivo <b>BR</b></p>
+            <p>Back-end na Vivo  <b>BR</b></p>
             <p>1 sessão realizada</p>
             </div>
         </section>
