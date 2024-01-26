@@ -3,16 +3,27 @@
     padding: 0px;
 }
 
+body { 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    
+}
+
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #f8f8f8;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
-
+    border-bottom: 1px solid #BA4848 ;
 }
 
 header nav {
-    background-color: aqua;
     display: flex;
 }
 
@@ -25,58 +36,48 @@ header nav ul {
 }
 
 header nav ul li {
-    margin-left: 50px;
+    margin-left: 3px;
     list-style-type: none;
 }
 
-/*header h2 {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: auto;
-    margin-bottom: auto;
-    height: 20px;
-    width: 20px;
-}*/
-
-/*#lupa {
-    position: relative;
-    left: 120px;
-    bottom: 70px;
+header nav button {
+    border: none;
+    background-color: #f8f8f8;
 }
 
-#logo {
-    position: relative;
-    width: 180px;
-    height: auto;
-    justify-content: flex-start;
+#buscar {
+    border: 1px solid #BA4848;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    padding-left: 50px;
+    font-size: 20px;
+    background-image: url(/imagens/icones/icon.lupa.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 1.5em;
+    box-shadow: 0px 0px 15px 0px #c0c0c0;
 }
 
-hr {
-    position: relative;
-    bottom: 40px;
-    width: 1850px;
-    height: 0px;
-    border-color:#BA4848;
-}
-
-.sideBar {
-    position: relative;
-    width: 140px;
-    height: 600px;
+aside {
     background-color: #BA4848;
-    bottom: 30px;
-    border-radius: 100px 100px 0px 0px;
+    width: auto;
+    height: auto;
+    margin: 0px 10px;
+    padding: 10px;
     padding-top: 100px;
-
+    border-radius: 100px 100px 10px 10px;
+    
 }
 
-.sideBar nav ul li {
+aside ul {
     list-style-type: none;
-    text-decoration: none;
 }
 
 main {
-    position: relative;
-    left: 160px;
-    bottom: 650px;
-}*/
+    background-color: blue;
+    padding: 20px;
+    width: auto;  
+}
