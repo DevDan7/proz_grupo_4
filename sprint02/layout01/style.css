@@ -2,7 +2,17 @@
     background-color: #F8F8F8;
     margin: 0px;
     padding: 0px;
+    font-family: "roboto";
 }
+body > :not(header){
+    display: flex;
+}
+
+/* {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
 
 header {
     background-color: #f8f8f8;
@@ -32,7 +42,7 @@ header {
 #buscar {
     width: 313px;
     height: 56px;
-    border-radius: 16px;
+    border-radius: 28px;
     border: 1px solid #BA4848;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
     font-size: 20px;
@@ -40,16 +50,41 @@ header {
     padding-left: 49px;
 }
 
-main {
+main, aside {
     margin: 0px 88px;
 }
 
 hr {
     margin: 4px 0px;
+    color: #85AEC0;
 }
 
-.menu ul li {
+#sideBarFoto {
+    background-image: none;
+}
+
+.usuario nav ul {
+    margin-top: 20px;
     list-style-type: none;
+    display: flex;
+    width: 250px;
+    height: 1022px;
+    padding: 40px 14px;
+    flex-direction: column;
+    align-items: left;
+    border-radius: 125px 125px 16px 16px;
+    background: linear-gradient(180deg, #BA4848 0%, #DB8054 100%);
+}
+
+.menu nav li {
+    color: white;
+    background: transparent;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    padding-left: 64px;
 }
 
 /*header nav ul {
