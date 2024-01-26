@@ -7,75 +7,72 @@
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
+
 <body>
+
     <header>
-        <div class="logoCabecalho">
-            <img src="/imagens/logo-g4.svg">
-        </div>
-        <div class="pesquisa">
-            <nav>
-                <ul>
-                    <li>
-                        <input type="text" placeholder="O que você procura?" id="buscar">
-                    </li>
-                    <li>
-                        <img src="/imagens/icones/icon.cabecalho.mensagem.svg">
-                    </li>
-                    <li>
-                        <img src="/imagens/icones/icon.cabecalho.notifica.svg">
-                    </li>
-                    <li>
-                        <img src="/imagens/icones/icon.cabecalho.perfil.svg">
-                    </li>
-                </ul>
-            </nav>  
-        </div>
-        <hr> 
+        <img src="/imagens/logo-g4.svg" alt="Logo do grupo 4" id="logo">
+        <nav>
+            <ul>
+                <li>
+                    <input type="text" placeholder="O que você procura?"/ id="buscar">
+                </li>
+                <li>
+                    <button><img src="/imagens/icones/icon.cabecalho.mensagem.svg"></button>
+                </li>
+                <li>
+                    <button><img src="/imagens/icones/icon.cabecalho.notifica.svg"></button>
+                </li>
+                <li>
+                    <button><img src="/imagens/icones/icon.cabecalho.perfil.svg"></button>
+                </li>
+            </ul>
+        </nav> 
     </header>
-    <aside>        
-        <div class="usuario">
+    
+    <aside>
+        <div class="sideBar">
             <nav>
-                <ul>
-                    <img src="/imagens/sidebar-foto.svg" id="sideBarFoto">
-                    <p><b>Lara de Lima</b></p>
+                <div>
+                    <img src="/imagens/sidebar-foto.svg" alt="SideBar Foto" id="sideBar-foto">
+                </div>
+                <div class="sideBarInfo">
+                    <h1>Lara de Lima</h1>
                     <p>Front-end</p>
-                    <hr>
+                </div>
+            </nav>
+            <nav class="Home">
+                <ul>
+                    <li id="LiHome">Home</li>
+                    <li id="LiMetas">Metas</li>
+                    <li id="LiMentorias">Mentorias</li>
+                    <li id="LiPlanjemaneto">Planejamento</li>
+                    <li id="LiConexoes">Conexões</li>
+                    <li id="LiGrupoEstudos">Grupo de Estudos</li>
                 </ul>
             </nav>
-        </div>
-        <div class="menu">
-            <nav>
-                <li><img src="/imagens/icones/icon.sidebar.home.svg">Home</li>
-                <li><img src="/imagens/icones/icon.sidebar.metas.svg">Metas</li>
-                <li><img src="/imagens/icones/icon.sidebar.mentorias.svg">Mentorias</li>
-                <li><img src="/imagens/icones/icon.sidebar.planejamento.svg">Planejamento</li>
-                <li><img src="/imagens/icones/icon.sidebar.conexoes.svg">Conexões</li>
-                <li><img src="/imagens/icones/icon.sidebar.grupoDeEstudos.svg">Grupo de Estudos</li>
+            <nav class="RedesSocias">
+                <ul>
+                    <li> <img src="/imagens/icones/icon.sidebar.redes.Git.svg" alt="GitHub Logo" id="gitHubLogo"> </li>
+                    <li> <img src="/imagens/icones/icon.sidebar.redes.Linkedin.svg" alt="Linkedin Logo" id="linkedinLogo"> </li>
+                    <li> <img src="/imagens/icones/icon.sidebar.redes.Spotify.svg" alt="Spotify Logo" id="spotifyLogo"> </li>
+                    <li> <img src="/imagens/icones/icon.sidebar.redes.Instagram.svg" alt="Instagram Logo" id="instagramLogo"> </li>
+                </ul>   
             </nav>
-        </div>
-        <hr>
-            <li>
-                <img src="/imagens/icones/icon.sidebar.redes.Git.svg">
-            </li>
-            <li>
-                <img src="/imagens/icones/icon.sidebar.redes.Linkedin.svg">
-            </li>
-            <li>
-                <img src="/imagens/icones/icon.sidebar.redes.Spotify.svg">
-            </li>
-            <li>
-                <img src="/imagens/icones/icon.sidebar.redes.Instagram.svg">
-            </li>
         </div>
     </aside>
+    
     <main>
         <section>
             <h1>Que bom ver você por aqui!</h1>
             <h3>A gente te ajuda a potencializar suas habilidades</h3>
         </section>
+        </div>
 
         <div><h2>Encontre profissionais disponíveis para mentoria no tema que você precisa</h2></div>
         <section>
+        <div class="cardMentor1">
+            <img src="/imagens/cardMentor1-foto.svg" alt="foto Mentor Sugerido 1" id="fotoMentorSugerido1">
             <p>Marcelo Kim</p>
             <p>Front-end na Meta <b>BR</b></p>
             <p>4 sessões (2 avaliações)</p>
@@ -83,7 +80,10 @@
             <p><b>02 de fevereiro</b></p>  
             <button>Agendar</button>           
         </section>
+        </div>
         <section>
+        <div class="cardMentor2">
+            <img src="/imagens/cardMentor2-foto.svg" alt="foto Mentor Sugerido 2" id="fotoMentorSugerido2">
             <p>Gabriela da Costa</p>
             <p>Full stack Developer na Google <b>BR</b></p>
             <p>12 sessões (9 avaliações)</p>
@@ -91,49 +91,64 @@
             <p><b>05 de fevereiro</b></p>
             <button>Agendar</button>            
         </section>
+        </div>
         <div><h2>Mentores que dão match com o seu perfil de busca</h2></div>
 
         <div><h2>Seus agendamentos recentes</h2></div>
         <h4>Ver todos</h4>
         <button>></button>
         <section>
+            <div class="cardAgendRecent1">
+            <img src="/imagens/cardAgendRecent1-foto.svg" alt="foto Mentor Recent 1" id="fotoMentorRecent1">
             <p>Camila Lira</p>
             <p>Front-end na Adidas <b>BR</b></p>
             <p>3 sessões realizadas</p>
+            </div>
         </section>
         <section>
+            <div class="cardAgendRecent2">
+            <img src="/imagens/cardAgendRecent2-foto.svg" alt="foto Mentor Recent 2" id="fotoMentorRecent2">
             <p>Pedro Martins</p>
             <p>Back-end na Vivo <b>BR</b></p>
             <p>1 sessão realizada</p>
+            </div>
         </section>
     </main>
     <aside>
         <section>
+            <div class="cardLateralDireitaPerfil">
             <h2>O desempenho do seu perfil</h2>
             <p>Nível juninho</p>
             <button>></button>
+            </div>
         </section>
 
         <section>
+            <div class="cardLateralDireitaDesempenho">
             <h2>Pontuação por desempenho</h2>
             <p><h2>26</h2></p>
             <button>Indique e ganhe pontos</button>
+            </div>
         </section>
 
         <section>
+            <div class="cardLateralDireitaPremium">            
             <h2>Já pensou em receber mentorias <b><u><i>Premium</i></u></b>?</h2>
             <ul>
                 <li>orientação de gestão do tempo de forma personalizada</li>
                 <li>mentorias mais longas</li>
             </ul>
             <button>Veja nossos planos</button>
+            </div>
         </section>
 
         <section>
+            <div class="cardLateralDireitaDicas">
             <h2>Dicas para aproveitar o máximo possível nas suas sessões de mentoria</h2>
             <h3>1. Anote suas dúvidas</h3>
             <button>></button>
             <h4>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus.</h4>
+            </div>
         </section>
     </aside>
 </body>
