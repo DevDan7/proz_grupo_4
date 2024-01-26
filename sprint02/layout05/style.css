@@ -6,32 +6,37 @@
 body { 
     display: flex;
     justify-content: space-between;
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    width: 90%;
     margin-top: 150px;
-    
 }
 
 header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
+    height: 80px;
     background-color: #f8f8f8;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    border-bottom: 1px solid #BA4848 ;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid #85AEC0 ;
 }
 
-header nav {
-    display: flex;
+#logo {
+    width: 200px;
 }
 
 header nav ul {
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
-    padding: 8px;
+    padding: 0px;
     align-items: center;
 }
 
@@ -64,20 +69,170 @@ header nav button {
 aside {
     background-color: #BA4848;
     width: auto;
-    height: auto;
+    height: 500px;
     margin: 0px 10px;
-    padding: 10px;
-    padding-top: 100px;
+    padding: 20px;
     border-radius: 100px 100px 10px 10px;
     
+}
+
+#sideBar-foto {
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.sideBarInfo {
+    background-color: white;
+    border-radius: 500px;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
+
+.sideBarInfo h1 {
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.sideBarInfo p {
+    font-size: 16px;
+}
+
+.Home {
+    border-top: 1px solid white ;
+    margin-top: 15px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 aside ul {
     list-style-type: none;
 }
 
+#LiHome {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    background-image: url(/imagens/icones/icon.sidebar.home.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 1.2em;
+}
+
+#LiMetas {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    background-image: url(/imagens/icones/icon.sidebar.metas.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 1.2em;
+}
+
+#LiMentorias {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    background-image: url(/imagens/icones/icon.sidebar.mentorias.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 1.2em;
+}
+
+#LiPlanjemaneto {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    background-image: url(/imagens/icones/icon.sidebar.planejamento.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 1.2em;
+}
+
+#LiConexoes {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    background-image: url(/imagens/icones/icon.sidebar.conexoes.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 1.2em;
+}
+
+#LiGrupoEstudos {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    background-image: url(/imagens/icones/icon.sidebar.grupoDeEstudos.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 1.2em;
+}
+
+.RedesSocias {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+
+.RedesSocias ul {
+    display: flex;
+}
+
+.RedesSocias li {
+    padding: 5px;
+}
+
 main {
-    background-color: blue;
     padding: 20px;
     width: auto;  
+}
+
+main h1 {
+    font-size: 32px;
+    color: #28434f;
+    border-bottom: 1px solid #85AEC0;
+    padding-bottom: 10px;
+}
+
+main h2 {
+    font-size: 20px;
+    color: #28434f;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+main p {
+    font-size: 16px;
+    color: #28434f;
+    padding-bottom: 20px;
+}
+
+table {
+    background-color: white;
+    border-color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 30px 0px #c0c0c0;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+    border-radius: 0px;
+    text-align: center;
+    border-color: #BA4848;
+}
+
+th {
+    background-color: #BA4848;
+    color: white;
+}
+
+td {
+    background-color: white;
+}
+
+.tdHorario {
+    background-color: #BA4848;
+    color: white;
 }
