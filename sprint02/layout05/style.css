@@ -67,7 +67,7 @@ header nav button {
 }
 
 aside {
-    background-color: #BA4848;
+    background-image: linear-gradient(#bA4848,#D87C53,#DB8054);
     width: auto;
     height: 500px;
     margin: 0px 10px;
@@ -223,7 +223,7 @@ th, td {
 }
 
 th {
-    background-color: #BA4848;
+    background-image: linear-gradient(#bA4848,#D87C53);
     color: white;
 }
 
@@ -232,6 +232,6 @@ td {
 }
 
 .tdHorario {
-    background-color: #BA4848;
+    background-image: linear-gradient(#bA4848,#D87C53);
     color: white;
 }
