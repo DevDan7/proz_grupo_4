@@ -183,63 +183,132 @@ aside ul {
   height: 216px;
 }
 
-#fotoMentorSugerido1 {
+
+main {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  width: auto;
+}
+
+main #cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+main h1 {
+  font-size: 32px;
+  color: #28434f;
+  padding-bottom: 10px;
+}
+
+main h2 {
+  font-size: 20px;
+  color: #28434f;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  
+}
+
+main h3 {
+  font-size: 20px;
+  color: #28434f;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+main hr {
+  border-bottom: 1px solid #85aec0;
+}
+
+main p {
+  font-size: 16px;
+  color: #28434f;
+}
+
+#match {
+    padding: 4px 0px 4px 0px;
+}
+
+#fotoMentorSugerido {
   width: 250.137px;
   height: 251px;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .cardMentor {
   width: auto;
-  height: 448px;
+  height: 392px;
   border-radius: 16px;
-  border: 1px solid #85aec0;
+  border: 2px solid #85aec0;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-start;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .cardMentor b {
-  margin-left: 15px;
-  font-size: x-small;
+  font-size: small;
+  font-style: bold;
 }
+
 .cardMentor .bottom-card {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  border-radius: 8px;
+  background: #FFF;
+  padding: 8px 0px 8px 0px;
 }
-#fotoMentorSugerido2 {
-  width: 250.137px;
-  height: 251px;
-  border-radius: 4px;
+
+.cardMentor .button-agenda {
+    display: inline-flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cardMentor .infoMentor {
+  margin-left: 20px;
+}
+
+.button-ver-mais {
+  display: right;
+  padding: 4px 8px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #fotoMentorRecent1 {
   width: 72px;
   height: 72px;
   border-radius: 125.5px;
+  padding: 1rem;
 }
 
-.cardAgendRecent1 {
-  width: 580px;
+.cardAgendRecent {
+  width: auto;
   height: 104px;
   border-radius: 16px;
-  border: 1px solid #85aec0;
+  border: 2px solid #85aec0;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.cardMentor .p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #fotoMentorRecent2 {
   width: 72px;
   height: 72px;
   border-radius: 125.5px;
-}
-
-.cardAgendRecent2 {
-  width: 580px;
-  height: 104px;
-  border-radius: 16px;
-  border: 1px solid #85aec0;
 }
 
 .cardLateralDireitaPerfil {
@@ -254,6 +323,8 @@ aside ul {
   height: 136px;
   border-radius: 16px;
   background: #fff;
+  color: #28434F;
+  text-align: center;
 }
 
 .cardLateralDireitaPremium {
@@ -264,10 +335,31 @@ aside ul {
   box-shadow: 0px 0px 30px 0px #c0c0c0;
   color: #ba4848;
   text-align: center;
-  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
+}
+
+.button-premium {
+  display: inline-flex;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button-indique {
+  display: inline-flex;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .cardLateralDireitaDicas {
@@ -277,35 +369,6 @@ aside ul {
   background: #fff;
 }
 
-main {
-  background-color: #f8f8f8;
-  padding: 20px;
-  width: auto;
-}
-
-main #cards {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-main h1 {
-  font-size: 32px;
-  color: #28434f;
-  border-bottom: 1px solid #85aec0;
-  padding-bottom: 10px;
-}
-
-main h2 {
-  font-size: 20px;
-  color: #28434f;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-
-main p {
-  font-size: 16px;
-  color: #28434f;
-}
 
 /*header nav ul {
     display: flex;

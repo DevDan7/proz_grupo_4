@@ -1,21 +1,6 @@
-<svg width="47" height="49" viewBox="0 0 47 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_84_249)">
-<path d="M19.8439 37.1751C14.0809 36.247 10.1605 30.8236 11.0869 25.062C12.0134 19.3003 17.436 15.3815 23.199 16.3096C28.962 17.2376 32.8824 22.661 31.9559 28.4227C31.0295 34.1844 25.6068 38.1032 19.8439 37.1751Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20.5784 32.6071C17.3386 32.0853 15.1349 29.0365 15.6557 25.7977C16.1765 22.5589 19.2247 20.3559 22.4645 20.8776C25.7042 21.3993 27.908 24.4481 27.3872 27.687C26.8664 30.9258 23.8182 33.1288 20.5784 32.6071Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21.313 28.039C20.5964 27.9236 20.1093 27.2494 20.2244 26.5334C20.3395 25.8175 21.0135 25.3302 21.73 25.4456C22.4465 25.561 22.9337 26.2352 22.8185 26.9512C22.7034 27.6672 22.0295 28.1544 21.313 28.039Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36.9262 11.8722C37.2364 11.6481 37.6733 11.8413 37.716 12.2216L37.9774 14.5475C37.997 14.7216 38.1063 14.8727 38.2655 14.9459L40.3923 15.9237C40.7401 16.0836 40.7866 16.559 40.4763 16.7832L34.9369 20.7861C34.7907 20.8918 34.599 20.9105 34.4351 20.8351L31.7953 19.6215C31.6361 19.5483 31.5268 19.3971 31.5072 19.223L31.1828 16.3362C31.1626 16.157 31.2406 15.9808 31.3867 15.8752L36.9262 11.8722Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
-<path d="M37.4312 15.2454L24.173 24.8261" stroke="white" stroke-width="2" stroke-linecap="round"/>
-</g>
-<defs>
-<filter id="filter0_d_84_249" x="-2" y="-2" width="50.697" height="52.2627" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset/>
-<feGaussianBlur stdDeviation="1"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_84_249"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_84_249" result="shape"/>
-</filter>
-</defs>
+<svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24.4473 1L24.8359 4.45736L27.9974 5.91092L21.5272 10.5865L18.3657 9.13293L17.9771 5.67556L24.4473 1Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25 4.62939L9.99992 15.4555" stroke="white" stroke-linecap="round"/>
+<circle cx="10" cy="16" r="9" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="10" cy="16" r="4" stroke="white" stroke-width="2" stroke-linejoin="round"/>
 </svg>
