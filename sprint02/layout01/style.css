@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
   width: 90%;
   margin-top: 150px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 header {
@@ -75,7 +75,7 @@ header nav button {
   width: auto;
   height: 100%;
   margin: 0px 10px;
-  padding: 20px 20px 0px 20px;
+  padding: 20px 20px 0px 10px;
   border-radius: 100px 100px 10px 10px;
 }
 
@@ -87,8 +87,8 @@ header nav button {
 .sideBarInfo {
   background-color: white;
   border-radius: 500px;
-  padding: 8px 20px;
-  margin-bottom: 16px;
+  padding: 0px 20px;
+  margin-bottom: 10px;
 }
 
 .sideBarInfo h1 {
@@ -104,16 +104,16 @@ header nav button {
   padding-left: 12px;
 }
 
+aside ul {
+  list-style-type: none;
+}
+
 .Home {
   border-top: 1px solid white;
   margin-top: 15px;
   color: white;
   margin-left: auto;
   margin-right: auto;
-}
-
-aside ul {
-  list-style-type: none;
 }
 
 #LiHome {
@@ -191,25 +191,24 @@ aside ul {
   height: 216px;
 }
 
-
 main {
   background-color: #f8f8f8;
   padding: 1rem;
   width: auto;
 }
 
-main #cards {
+#cards {
   display: flex;
   justify-content: space-between;
 }
 
-main h1 {
+h1 {
   font-size: 32px;
   color: #28434f;
   padding-bottom: 10px;
 }
 
-main h2 {
+h2 {
   font-size: 20px;
   color: #28434f;
   padding-top: 10px;
@@ -217,23 +216,23 @@ main h2 {
   
 }
 
-main h3 {
+h3 {
   font-size: 20px;
   color: #28434f;
   padding-top: 10px;
   padding-bottom: 20px;
 }
 
-main h4 {
+h4 {
   font-size: 16px;
   color: #28434f;
 }
 
-main hr {
+hr {
   border-bottom: 1px solid #85aec0;
 }
 
-main p {
+p {
   font-size: 16px;
   color: #28434f;
 }
@@ -251,7 +250,7 @@ main p {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 #fotoMentorSugerido {
@@ -260,23 +259,20 @@ main p {
   border-radius: 8px;
 }
 
-main ul {
-  list-style-type: none;
-}
-
 #LiIconJob {
   justify-content: left;
   background-image: url(/imagens/icones/icon.cardMentores.maletinha.svg);
   background-repeat: no-repeat;
   background-size: 1.2em;
+  list-style-type: none;
 }
 
 #LiIconAvalia {
-  margin-bottom: 10px;
-  padding-left: 4px;
+  justify-content: left;
   background-image: url(/imagens/icones/icon.cardMentores.estrelinha.svg);
   background-repeat: no-repeat;
   background-size: 1.2em;
+  list-style-type: none;
 }
 
 .cardMentor b {
@@ -294,14 +290,14 @@ main ul {
 }
 
 .cardMentor .button-agenda {
-    display: inline-flex;
-    padding: 4px 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 8px;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: inline-flex;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .cardMentor .infoMentor {
@@ -354,24 +350,45 @@ main ul {
 }
 
 .cardLateralDireitaPerfil {
-  width: 312px;
-  height: 136px;
+  width: auto;
+  height: auto;
   border-radius: 16px;
   background: #fff;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 24px;
 }
 
 .cardLateralDireitaDesempenho {
-  width: 312px;
-  height: 136px;
+  width: auto;
+  height: auto;
   border-radius: 16px;
   background: #fff;
-  color: #28434F;
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+#LiIconFoguete {
+  justify-content: right;
+  background-image: url(/imagens/icones/icon.cardPotencial.foguete.svg);
+  background-repeat: no-repeat;
+}
+
+.button-indique {
+  display: inline-flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #28434F;
 }
 
 .cardLateralDireitaPremium {
-  width: 312px;
-  height: 224px;
+  width: 296px;
+  height: auto;
   border-radius: 16px;
   background: #fff;
   box-shadow: 0px 0px 30px 0px #c0c0c0;
@@ -380,6 +397,9 @@ main ul {
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
+  margin-top: 40px;
+  margin-bottom: 8px;
+  padding: 16px;
 }
 
 .button-premium {
@@ -387,86 +407,18 @@ main ul {
   padding: 4px 8px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  border-radius: 8px;
-  background: #FFF;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.button-indique {
-  display: inline-flex;
-  padding: 4px 8px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
   border-radius: 8px;
   background: #FFF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .cardLateralDireitaDicas {
-  width: 312px;
-  height: 301px;
+  width: 296px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
   border-radius: 16px;
   background: #fff;
+  margin-top: 94px;
+  padding: 16px;
 }
-
-
-/*header nav ul {
-    display: flex;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 8px;
-}
-
-/*header h2 {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: auto;
-    margin-bottom: auto;
-    height: 20px;
-    width: 20px;
-}*/
-
-/*#lupa {
-    position: relative;
-    left: 120px;
-    bottom: 70px;
-}
-
-#logo {
-    position: relative;
-    width: 180px;
-    height: auto;
-    justify-content: flex-start;
-}
-
-hr {
-    position: relative;
-    bottom: 40px;
-    width: 1850px;
-    height: 0px;
-    border-color:#BA4848;
-}
-
-.sideBar {
-    position: relative;
-    width: 140px;
-    height: 600px;
-    background-color: #BA4848;
-    bottom: 30px;
-    border-radius: 100px 100px 0px 0px;
-    padding-top: 100px;
-
-}
-
-.sideBar nav ul li {
-    list-style-type: none;
-    text-decoration: none;
-}
-
-main {
-    position: relative;
-    left: 160px;
-    bottom: 650px;
-}*/
