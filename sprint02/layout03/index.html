@@ -4,124 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/imagens/icone-g4.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css"
-    <title>Layout02</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Layout03</title>
 </head>
 
 <body>
     <header>
-        <img src="/imagens/logo-g4.png" alt="Logo do grupo 4">
-        <h2>
-            <input type="text" placeholder="Buscar..."/>
-            <img src="/imagens/img-pesquisa.png" alt="Buscar"/>
-        </h2>
+        <img src="/imagens/logo-g4.svg" alt="Logo do grupo 4" id="logo">
         <nav>
             <ul>
-                <li><a href="./index.html">Lar</a></li>
-                <li>Agendamento</li>
-                <li>Metas</li>
-                <li>Aprender</li>
-                <li>Conexões</li>
-                <li>Grupo de Estudos</li>
-                <li>Cursos</li>
+                <li>
+                    <input type="text" placeholder="O que você procura?"/ id="buscar">
+                </li>
+                <li>
+                    <button><img src="/imagens/icones/icon.cabecalho.mensagem.svg"></button>
+                </li>
+                <li>
+                    <button><img src="/imagens/icones/icon.cabecalho.notifica.svg"></button>
+                </li>
+                <li>
+                    <button><img src="/imagens/icones/icon.cabecalho.perfil.svg"></button>
+                </li>
             </ul>
-        </nav>
-    </header> 
+        </nav> 
+    </header>
+    <aside>
+        <div class="sideBar">
+            <nav>
+                <div>
+                    <img src="/imagens/sidebar-foto.svg" alt="SideBar Foto" id="sideBar-foto">
+                </div>
+                <div class="sideBarInfo">
+                    <h1>Lara de Lima</h1>
+                    <p>Front-end</p>
+                </div>
+            </nav>
+            <nav class="Home"">
+                <ul>
+                    <li id="LiHome">Home</li>
+                    <li id="LiMetas">Metas</li>
+                    <li id="LiMentorias">Mentorias</li>
+                    <li id="LiPlanjemaneto">Planejamento</li>
+                    <li id="LiConexoes">Conexões</li>
+                    <li id="LiGrupoEstudos">Grupo de Estudos</li>
+                </ul>
+            </nav>
+            <nav class="RedesSocias">
+                <ul>
+                    <li> <img src="/imagens/icones/icon.sidebar.redes.Git.svg" alt="GitHub Logo" id="gitHubLogo"> </li>
+                    <li> <img src="/imagens/icones/icon.sidebar.redes.Linkedin.svg" alt="Linkedin Logo" id="linkedinLogo"> </li>
+                    <li> <img src="/imagens/icones/icon.sidebar.redes.Spotify.svg" alt="Spotify Logo" id="spotifyLogo"> </li>
+                    <li> <img src="/imagens/icones/icon.sidebar.redes.Instagram.svg" alt="Instagram Logo" id="instagramLogo"> </li>
+                </ul>   
+            </nav>
+        </div>
+    </aside>
+
     <main>
 
-        <h1>Rotina indicada</h1>
-        <h2>De acordo com os dados fornecidos essa foi uma das rotinas que indicamos para você!</h2>
+        <h1>Como é a sua rotina?</h1>
         <section>
           <p>
-            A sua rotina está pronta, e se quiser pode fazer alterações para se enquadrar melhor ao seu dia a dia!
-            Se ainda não estiver satisfeito com a sua rotina, sugerimos que faça uma mentoria com um de nossos profissionais!
-            Dessa forma, será possível elaborar a rotina perfeita para voce!
+            Digite suas atividades fixas e suas prioridades do dia a dia com os horários de cada uma delas:
           </p>
         </section>
         </header>
         <section>
-            <table border = "1">
+            <table border = "3">
                 <tr>
-                    <th>Horário</th>
-                    <th>Domingo</th>
-                    <th>Segunda-feira</th>
-                    <th>Terça-feira</th>
-                    <th>Quarta-feira</th>
-                    <th>Quinta-feira</th>
-                    <th>Sexta-feira</th>
-                    <th>Sábado</th>
+                    <td>
+                        <input type="text" placeholder="ROTINA"></input>
+                        <input type="text" placeholder="HORÁRIO"></input>
+                    </td>
                 </tr>
                 <tr>
-                    <td>00:00</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
+                    <td>
+                        <input type="text" placeholder="ROTINA"></input>
+                        <input type="text" placeholder="HORÁRIO"></input>
                 </tr>
                 <tr>
-                    <td>00:00</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
+                    <td>
+                        <input type="text" placeholder="ROTINA"></input>
+                        <input type="text" placeholder="HORÁRIO"></input>
+                    </td>
                 </tr>
                 <tr>
-                    <td>00:00</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
+                    <td>
+                        <input type="text" placeholder="ROTINA"></input>
+                        <input type="text" placeholder="HORÁRIO"></input>
+                    </td>
                 </tr>
                 <tr>
-                    <td>00:00</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
+                    <td>
+                        <input type="text" placeholder="ROTINA"></input>
+                        <input type="text" placeholder="HORÁRIO"></input>
+                    </td>
                 </tr>
                 <tr>
-                    <td>00:00</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                </tr>
-                <tr>
-                    <td>00:00</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
-                    <td>----</td>
+                    <td>
+                        <input type="text" placeholder="ROTINA"></input>
+                        <input type="text" placeholder="HORÁRIO"></input>
+                    </td>
                 </tr>
             </table>
+            <button>Continuar </button>
         </section>
     </main>
-    <footer>
-        <img src="/imagens/logo-g4.png" alt="Logo do grupo 4">
-        <ul>
-            <li><a href="https://www.instagram.com/">Instagram</a></li>
-            <li>Contato</li>
-            <li>Sobre nós</li>
-        </ul>
-        
-<footer>
 </body>
 </html>
