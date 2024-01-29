@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
   width: 90%;
   margin-top: 150px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   height: 80px;
   background-color: #f8f8f8;
   display: flex;
@@ -32,12 +32,14 @@ header {
 
 #logo {
   width: 200px;
+  margin-left: 80px;
 }
 
 header nav ul {
   display: flex;
   margin-top: auto;
   margin-bottom: auto;
+  margin-right: 60px;
   padding: 0px;
   align-items: center;
 }
@@ -92,10 +94,18 @@ header nav button {
 .sideBarInfo h1 {
   font-size: 16px;
   white-space: nowrap;
+  color: #28434f;
+  padding-left: 12px;
 }
 
 .sideBarInfo p {
   font-size: 16px;
+  color: #28434f;
+  padding-left: 12px;
+}
+
+aside ul {
+  list-style-type: none;
 }
 
 .Home {
@@ -104,10 +114,6 @@ header nav button {
   color: white;
   margin-left: auto;
   margin-right: auto;
-}
-
-aside ul {
-  list-style-type: none;
 }
 
 #LiHome {
@@ -166,6 +172,8 @@ aside ul {
 }
 
 .RedesSocias {
+  position:static;
+  padding-bottom: 16px;
   display: flex;
   justify-content: space-around;
   border-top: 1px solid white;
@@ -183,16 +191,12 @@ aside ul {
   height: 216px;
 }
 
-
 main {
-
   margin: auto;
   width: 50%;
   padding: 10px;
- 
-
+  justify-content: left;
 }
-
 
 main h1 {
   font-size: 32px;
@@ -201,17 +205,16 @@ main h1 {
   border-bottom: 1px solid #85aec0; 
 }
 
-
 main h3 {
   font-size: 20px;
   color: #28434f;
   padding-top: 10px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #85aec0;
 } 
 
 .container{
-
-  border: 1px solid rgb(134, 128, 128);
-  border-radius: 10px;
+  border: 1px solid #85aec0; 
+  border-radius: 8px;
+  padding: 4px 8px;
+  color: #28434f;
 }

@@ -11,10 +11,13 @@ body {
     margin: 0 auto;
     width: 90%;
     margin-top: 150px;
+    margin-bottom: 1rem;
 }
+
 input{
     width: 350px;
     height: 30px;
+
 }
 header {
     position: fixed;
@@ -22,7 +25,7 @@ header {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     height: 80px;
     background-color: #f8f8f8;
     display: flex;
@@ -34,12 +37,14 @@ header {
 
 #logo {
     width: 200px;
+    margin-left: 80px;
 }
 
 header nav ul {
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 60px;
     padding: 0px;
     align-items: center;
 }
@@ -53,6 +58,7 @@ header nav button {
     border: none;
     background-color: #f8f8f8;
 }
+
 main section button{
     background-color: #D87C53;
     border-radius: 8px;
@@ -101,16 +107,20 @@ aside {
     border-radius: 500px;
     padding: 0px 20px;
     margin-bottom: 10px;
-}
-
-.sideBarInfo h1 {
+  }
+  
+  .sideBarInfo h1 {
     font-size: 16px;
     white-space: nowrap;
-}
-
-.sideBarInfo p {
+    color: #28434f;
+    padding-left: 12px;
+  }
+  
+  .sideBarInfo p {
     font-size: 16px;
-}
+    color: #28434f;
+    padding-left: 12px;
+  }
 
 .Home {
     border-top: 1px solid white ;
@@ -207,6 +217,13 @@ main h1 {
     padding-bottom: 10px;
 }
 
+h3 {
+    font-size: 20px;
+    color: #28434f;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 main p {
     font-size: 23px;
     color: #28434f;
@@ -222,7 +239,7 @@ table {
     box-shadow: 0px 0px 30px 0px #c0c0c0;
 }
 
- td {
+td {
     border: 1px solid white;
     padding: 8px;
     text-align: left;
@@ -230,8 +247,6 @@ table {
     text-align: center;
     border-color: #BA4848;
 }
-
-
 
 td {
     background-color: white;
