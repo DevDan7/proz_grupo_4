@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/imagens/icones/icone-g4.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styleglobal.css">
+    <link rel="shortcut icon" href="/imagens/icones/icone-g4.ico" type="image/x-icon">    
+    <link rel="stylesheet" href="/sprint03/styleglobal.css">
     <link rel="stylesheet" href="style.css">
+    <script src="/sprint03/script.js" defer></script>
     <title>Home</title>
 </head>
 
@@ -19,20 +20,20 @@
                     <input type="text" placeholder="O que você procura?" id="buscar">
                 </li>
                 <li>
-                    <button><img src="/imagens/icones/icon.cabecalho.mensagem.svg"></button>
+                    <button id="mensagem"></button>
                 </li>
                 <li>
-                    <button><img src="/imagens/icones/icon.cabecalho.notifica.svg"></button>
+                    <button id="notifica"></button>
                 </li>
                 <li>
-                    <button><img src="/imagens/icones/icon.cabecalho.perfil.svg"></button>
+                    <button><img src="/imagens/icones/icon.cabecalho.perfil.png"></button>
                 </li>
             </ul>
         </nav> 
     </header>
     
     <aside id="aside-1">
-        <div class="sideBar">
+        <div>
             <nav>
                 <div>
                     <img src="/imagens/sidebar-foto.svg" alt="SideBar Foto" id="sideBar-foto">
@@ -42,7 +43,7 @@
                     <p>Front-end</p>
                 </div>
             </nav>
-            <nav class="Home">
+            <nav class="Menu">
                 <ul>
                     <li id="LiHome">Home</li>
                     <a href="../layout02/index.html"><li id="LiMetas">Metas</li></a>
@@ -66,7 +67,7 @@
     <main>
         <section>
             <h1>Que bom ver você por aqui!</h1>
-            <h3>A gente te ajuda a potencializar suas habilidades</h3>
+            <h4>A gente te ajuda a potencializar suas habilidades</h4>
             <hr>
         </section>
 
@@ -77,11 +78,11 @@
         <div class="cardMentor">
             <img src="/imagens/cardMentor1-foto.svg" alt="foto Mentor Sugerido 1" id="fotoMentorSugerido">
             <span>
-            <p>Marcelo Kim  <b>BR</b></p> 
+            <h2>Marcelo Kim  <b>BR</b></h2> 
                 <div class="infoMentor">
                     <ul>
-                        <li id="LiIconJob"><p>Front-end na Meta</p></li>
-                        <li id="LiIconAvalia"><p>4 sessões (2 avaliações)</p></li>
+                        <li id="LiIconJob"><h6>Front-end na Meta</h6></li>
+                        <li id="LiIconAvalia"><h6>4 sessões (2 avaliações)</h6></li>
                     </ul>
                 </div>
             </span>
@@ -99,10 +100,10 @@
             <img src="/imagens/cardMentor2-foto.svg" alt="foto Mentor Sugerido 2" id="fotoMentorSugerido">
                 
             <span>
-                <p>Gabriela da Costa  <b>BR</b></p>
+                <h2>Gabriela da Costa  <b>BR</b></h2>
                 <div class="infoMentor">
-                    <li id="LiIconJob"><p>Full stack Developer na Google</p></li>
-                    <li id="LiIconAvalia"><p>12 sessões (9 avaliações)</p></li>
+                    <li id="LiIconJob"><h6>Full stack Developer na Google</h6></li>
+                    <li id="LiIconAvalia"><h6>12 sessões (9 avaliações)</h6></li>
                 </div>
             </span>
             <div class="bottom-card">
@@ -116,11 +117,11 @@
         </div>
     </section>
         <div id="match"><h2>Mentores que dão match com o seu perfil de busca</h2></div>
-        <img src="/imagens/icones/icon.seta-ver_mais.svg" class="button-ver-mais">
-        <hr>
+            <img src="/imagens/icones/icon.seta-ver_mais.svg" id="button-ver-mais">
+            <hr>
 
         <div><h2>Seus agendamentos recentes</h2></div>
-        <h4>Ver todos</h4>
+             <h2>Ver todos</h2>
         <section>
         <div class="cardAgendRecent">
             <img src="/imagens/cardAgendRecent1-foto.svg" alt="foto Mentor Recent 1" id="fotoMentorRecent">
@@ -153,23 +154,23 @@
     <aside>
         <section>
             <div class="cardLateralDireitaPerfil">
-            <h2>O desempenho do seu perfil</h2>
+            <h3>O desempenho do seu perfil</h3>
             <div id="LiIconFoguete"><p>Nível juninho</p></div>                
-            <img src="/imagens/icones/icon.seta-ver_mais.svg" class="button-ver-mais">
+            <img src="/imagens/icones/icon.seta-ver_mais.svg" id="button-ver-mais">
             </div>
         </section>
 
         <section>
-            <div class="cardLateralDireitaDesempenho">
+            <div class="cardLateralDireitaPontuacaoDesempenho">
             <h2>Pontuação por desempenho</h2>
-            <p><h2>26</h2></p>
+            <p>26</p>
             <div class ="button-indique">Indique e ganhe pontos</div>
             </div>
         </section>
 
         <section>
             <div class="cardLateralDireitaPremium">            
-            <h2>Já pensou em receber mentorias <b><u><i>Premium</i></u></b>?</h2>
+            <h3>Já pensou em receber mentorias <b><u><i>Premium</i></u></b>?</h3>
             <ul>
                 <li>orientação de gestão do tempo de forma personalizada</li>
                 <li>mentorias mais longas</li>
@@ -181,9 +182,9 @@
         <section>
             <div class="cardLateralDireitaDicas">
             <h2>Dicas para aproveitar o máximo possível nas suas sessões de mentoria</h2>
-            <h3>1. Anote suas dúvidas</h3>
+            <h4>1. Anote suas dúvidas</h4>
             <img src="/imagens/icones/icon.seta-ver_mais.svg" class="button-ver-mais">
-            <h4>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus.</h4>
+            <h5>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus.</h5>
             </div>
         </section>
     </aside>

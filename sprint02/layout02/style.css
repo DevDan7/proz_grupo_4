@@ -172,12 +172,12 @@ aside ul {
 
 .RedesSocias {
   position:static;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
   display: flex;
   justify-content: space-around;
   border-top: 1px solid white;
-  padding-top: 15px;
-  margin-top: 50px;
+  padding-top: 36px;
+  margin-bottom: 36px;
 }
 
 .RedesSocias ul {

@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Krub', sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;  
+}
+
+header {
+  background-color: #f8f8f8;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0px;
+  border-bottom: 1px solid #85aec0;
+}
+
+#logo {
+  width: 200px;
+  margin-left: 80px;
+}
+
+header nav ul {
+  display: flex;
+  margin: auto 80px;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav button {
+  border: none;
+  background-color: #f8f8f8;
+  height: 40px;
+}
+
+#buscar {
+  border: 1px solid #ba4848;
+  width: 216px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 0 8px;
+  padding-left: 48px;
+  justify-content: center;
+  font-size: 16px;
+  background-image: url(/imagens/icones/icon.lupa.png);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 1.5em;
+  box-shadow: 0px 0px 15px 0px #c0c0c0;
+}
+
+#mensagem {
+  border: 1px solid #ba4848;
+  border-radius: 20px;
+  margin: 0 8px;
+  padding-left: 40px;
+  background-image: url(/imagens/icones/icon.cabecalho.mensagem.png);
+  background-repeat: no-repeat;
+  background-position: 8px;
+  background-size: 24px;
+  box-shadow: 0px 0px 15px 0px #c0c0c0;
+
+}
+
+#notifica {
+  border: 1px solid #ba4848;
+  border-radius: 20px;
+  margin: 0 8px;
+  padding-left: 40px;
+  background-image: url(/imagens/icones/icon.cabecalho.notifica.png);
+  background-repeat: no-repeat;
+  background-position: 8px;
+  background-size: 24px;
+  box-shadow: 0px 0px 15px 0px #c0c0c0;
+}
+
+#aside-1 {
+  background: linear-gradient(180deg, #ba4848 0%, #db8054 100%);
+  width: 192px;
+  height: 968px;
+  border-radius: 8rem 8rem 16px 16px;
+  margin: 120px 16px 32px 256px;
+  padding: 24px;
+  justify-content:center;
+  align-items: center;
+}
+
+#aside-1 div nav {
+  justify-content: center;
+}
+
+#sideBar-foto {
+    width: 160px;
+    height: 160px;
+    margin: 16px;
+}
+
+.sideBarInfo {
+  background-color: white;
+  border-radius: 27px;
+  padding: 4px 16px;
+  margin: 0px 8px;
+}
+
+.sideBarInfo h1 {
+  font-size: 16px;
+  white-space: nowrap;
+  color: #28434f;
+  padding: 0px 8px;
+}
+
+.sideBarInfo p {
+  font-size: 16px;
+  color: #28434f;
+  padding: 0px 8px;
+}
+
+.Menu {
+  border-top: 1px solid white;
+  margin: 16px 16px 272px 8px;
+  padding: 16px 4px ;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Menu ul li {
+  list-style-type: none;
+  margin: 16px 0px;
+  padding: 12px 8px 0px 40px;
+  background-repeat: no-repeat;
+  background-position: 8px;
+  background-size: 1.4em;
+  font-weight:bold;
+}
+
+#LiHome {
+  height: 32px;
+  border: 1px solid white;
+  border-radius: 24px;
+  background-image: url(/imagens/icones/icon.sidebar.home.svg);
+}
+
+#LiMetas {
+  background-image: url(/imagens/icones/icon.sidebar.metas.svg);
+  color: white;
+  text-decoration: none;
+}
+
+#LiMentorias {
+  background-image: url(/imagens/icones/icon.sidebar.mentorias.svg);
+}
+
+#LiPlanjemaneto {
+  background-image: url(/imagens/icones/icon.sidebar.planejamento.svg);
+}
+
+#LiConexoes {
+  background-image: url(/imagens/icones/icon.sidebar.conexoes.svg);
+}
+
+#LiGrupoEstudos {
+  background-image: url(/imagens/icones/icon.sidebar.grupoDeEstudos.svg);
+  background-position: 8px;
+  background-size: 1.6rem;
+}
+
+.RedesSocias ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid white;
+  padding: 24px 24px 64px 24px;  
+}
+
+main {
+  background-color: #f8f8f8;
+  width: 640px;
+  margin: 0px 16px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #28434f;
+  padding: 120px 120px 0px 0px;
+}
+
+h2 {
+  font-size: 16px;
+  color: #28434f;
+  padding: 8px 0px;
+}
+
+h3 {
+  font-size: large;
+  font-weight:600;
+  color:#ba4848;
+}
+
+h4 {
+  font-size: large;
+  font-weight:400;
+  color: #28434f;
+  padding: 8px 0px 16px 0px;
+}
+
+h5 {
+  font-size: 16px;
+  color: #28434f;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #28434f;
+  padding-bottom: 4px;
+}
+
+p {
+  font-size: 16px;
+  color: #28434f;
+}
+
+b {
+  font-weight:900;
+  padding-left: 8px;
+}
