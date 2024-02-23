@@ -5,9 +5,6 @@ var LiPlanejamento = document.querySelector("#LiPlanejamento");
 var LiConexoes = document.querySelector("#LiConexoes");
 var LiGrupoEstudos = document.querySelector("#LiGrupoEstudos");
 
-
-
-
 //evento de mouseover
 
 LiHome.addEventListener("mouseover", function() {
