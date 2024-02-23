@@ -1,10 +1,4 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: "roboto";
-}
-
-body { 
+/*body { 
     display: flex;
     justify-content: baseline;
     background-color: #f8f8f8;
@@ -208,6 +202,14 @@ aside ul {
 main {
     padding: 20px;
     width: auto;  
+} */
+
+#LiHome {
+    height: 32px;
+    border-radius: 24px;
+    background-image: url(/imagens/icones/icon.sidebar.home.svg);
+    color: white;
+    text-decoration: none;
 }
 
 main h1 {

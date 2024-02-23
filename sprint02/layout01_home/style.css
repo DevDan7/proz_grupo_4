@@ -1,17 +1,23 @@
+<<<<<<< HEAD
 /* *  {
   margin: 0;
   padding: 0;
 } */
 
 
+=======
+#LiMetas {
+  height: 32px;
+  border-radius: 24px;
+  background-image: url(/imagens/icones/icon.sidebar.metas.svg);
+  color: white;
+  text-decoration: none;
+}
+>>>>>>> 3245c0cdca0caf06493baca6f949ca2699f46666
 
 #cards {
   display: flex;
   justify-content: space-between;
-}
-
-hr {
-  border-bottom: 1px #85aec0;
 }
 
 .cardMentor {
@@ -99,7 +105,10 @@ hr {
   padding: 1rem;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3245c0cdca0caf06493baca6f949ca2699f46666
 .cardAgendRecent .infoMentorRecent {
   margin: 8px;
   padding: 8px 0px 8px 104px;
