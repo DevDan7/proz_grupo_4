@@ -1,3 +1,65 @@
+var LiHome = document.querySelector("#LiHome");
+var LiMetas = document.querySelector("#LiMetas");
+var LiMentorias = document.querySelector("#LiMentorias");
+var LiPlanejamento = document.querySelector("#LiPlanejamento");
+var LiConexoes = document.querySelector("#LiConexoes");
+var LiGrupoEstudos = document.querySelector("#LiGrupoEstudos");
+
+
+
+
+//evento de mouseover
+
+LiHome.addEventListener("mouseover", function() {
+    this.style.backgroundColor = "#85aec0";
+});
+
+LiMetas.addEventListener("mouseover", function() {
+    this.style.backgroundColor = "#85aec0";
+});
+
+LiMentorias.addEventListener("mouseover", function() {
+    this.style.backgroundColor = "#85aec0";
+});
+
+LiPlanejamento.addEventListener("mouseover", function() {
+    this.style.backgroundColor = "#85aec0";
+});
+
+LiConexoes.addEventListener("mouseover", function() {
+    this.style.backgroundColor = "#85aec0";
+});
+
+LiGrupoEstudos.addEventListener("mouseover", function() {
+    this.style.backgroundColor = "#85aec0";
+});
+
+//evento de mouseout
+LiHome.addEventListener("mouseout", function() {
+    this.style.backgroundColor = "transparent";
+});
+
+LiMetas.addEventListener("mouseout", function() {
+    this.style.backgroundColor = "transparent";
+});
+
+LiMentorias.addEventListener("mouseout", function() {
+    this.style.backgroundColor = "transparent";
+});
+
+LiPlanejamento.addEventListener("mouseout", function() {
+    this.style.backgroundColor = "transparent";
+});
+
+LiConexoes.addEventListener("mouseout", function() {
+    this.style.backgroundColor = "transparent";
+});
+
+
+LiGrupoEstudos.addEventListener("mouseout", function() {
+    this.style.backgroundColor = "transparent";
+});
+
 let logo = document.getElementById("logo")
 //console.log(logo)
 
