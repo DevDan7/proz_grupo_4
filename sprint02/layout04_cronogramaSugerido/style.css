@@ -1,4 +1,4 @@
-* {
+/* {
     margin: 0px;
     padding: 0px;
 }
@@ -183,13 +183,18 @@ aside ul {
 }
 
 .RedesSocias li {
-    padding: 5px;
-}
+  padding: 8px;
+  width: 16px;
+  height: 216px;
+} */
 
-main {
-    padding: 20px;
-    width: auto;  
-}
+#LiHome {
+    height: 32px;
+    border-radius: 24px;
+    background-image: url(/imagens/icones/icon.sidebar.home.svg);
+    color: white;
+    text-decoration: none;
+  }
 
 main h1 {
     font-size: 32px;

@@ -1,10 +1,14 @@
+#LiMetas {
+  height: 32px;
+  border-radius: 24px;
+  background-image: url(/imagens/icones/icon.sidebar.metas.svg);
+  color: white;
+  text-decoration: none;
+}
+
 #cards {
   display: flex;
   justify-content: space-between;
-}
-
-hr {
-  border-bottom: 1px #85aec0;
 }
 
 .cardMentor {
@@ -91,8 +95,6 @@ hr {
   flex-direction: column;
   padding: 1rem;
 }
-
-
 
 .cardAgendRecent .infoMentorRecent {
   margin: 8px;
