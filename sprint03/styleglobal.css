@@ -128,7 +128,7 @@ header nav button {
 
 .Menu {
   border-top: 1px solid white;
-  margin: 16px 16px 272px 8px;
+  margin: 16px 16px 240px 8px;
   padding: 16px 4px ;
   color: white;
   margin-left: auto;
@@ -147,30 +147,40 @@ header nav button {
 
 #LiHome {
   height: 32px;
-  border: 1px solid white;
   border-radius: 24px;
+  /* border: 1px solid white;*/
   background-image: url(/imagens/icones/icon.sidebar.home.svg);
 }
 
 #LiMetas {
+  height: 32px;
+  border-radius: 24px;
   background-image: url(/imagens/icones/icon.sidebar.metas.svg);
   color: white;
   text-decoration: none;
 }
 
 #LiMentorias {
+  height: 32px;
+  border-radius: 24px;
   background-image: url(/imagens/icones/icon.sidebar.mentorias.svg);
 }
 
-#LiPlanjemaneto {
+#LiPlanejamento {
+  height: 32px;
+  border-radius: 24px;
   background-image: url(/imagens/icones/icon.sidebar.planejamento.svg);
 }
 
 #LiConexoes {
+  height: 32px;
+  border-radius: 24px;
   background-image: url(/imagens/icones/icon.sidebar.conexoes.svg);
 }
 
 #LiGrupoEstudos {
+  height: 32px;
+  border-radius: 24px;
   background-image: url(/imagens/icones/icon.sidebar.grupoDeEstudos.svg);
   background-position: 8px;
   background-size: 1.6rem;
