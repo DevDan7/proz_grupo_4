@@ -182,33 +182,85 @@ aside ul {
   padding: 8px;
   width: 16px;
   height: 216px;
-} */
+}
 
-#LiHome {
-  height: 32px;
-  border-radius: 24px;
-  background-image: url(/imagens/icones/icon.sidebar.home.svg);
+#LiHome, #LiMetas, #LiMentorias, #LiPlanejamento, #LiConexoes, #LiGrupoEstudos, a {
   color: white;
   text-decoration: none;
-}
+} */
 
 main h1 {
   font-size: 32px;
   color: #28434f;
   padding-bottom: 10px;
-  border-bottom: 1px solid #85aec0; 
+  border-bottom: 1px solid #85aec0;
 }
 
-main h3 {
+#tituloMetas {
+  padding: 0rem;
+}
+
+main h2 {
   font-size: 20px;
   color: #28434f;
   padding-top: 10px;
   padding-bottom: 20px;
 } 
 
+main select {
+  border: 1px solid #85aec0;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  padding-left: 1rem;
+  font-size: 20px;
+  background-position: 10px;
+  background-size: 1.5em;
+  box-shadow: 0px 0px 15px 0px #c0c0c0;
+}
+
+main button {
+  border: 1px solid #85aec0;
+  width: auto;
+  height: 4cqh₢;
+  border-radius: 50px;
+  margin-bottom: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 20px;
+  box-shadow: 0px 0px 15px 0px #c0c0c0;
+  background-color: #ba4848;
+  color:white;
+}
+
+.botao {
+  text-align: right;
+  margin-right: 1rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .container{
   border: 1px solid #85aec0; 
   border-radius: 8px;
-  padding: 4px 8px;
+  padding: 1rem;
   color: #28434f;
+}
+
+.novaMeta {
+  border: 1px solid #85aec0;
+  margin-top: 2rem;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #28434f;
+  background-color: white;
+}
+
+.container h3 {
+  font-size: 30px;
+  color: #28434f;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }

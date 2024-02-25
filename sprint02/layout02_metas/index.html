@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/sprint03/styleglobal.css">
     <link rel="stylesheet" href="style.css">
     <script src="/sprint04/script.js" defer></script>
+    <script src="script.js" defer></script>
     <title>Qual a sua meta?</title>
 </head>
 
@@ -46,11 +47,11 @@
             <nav class="Menu">
                 <ul>
                     <a href="../layout01_home/index.html"><li id="LiHome">Home</li></a>
-                    <li id="LiMetas">Metas</li></a>
-                    <li id="LiMentorias">Mentorias</li>
-                    <li id="LiPlanejamento">Planejamento</li>
-                    <li id="LiConexoes">Conexões</li>
-                    <li id="LiGrupoEstudos">Grupo de Estudos</li>
+                    <a href="../layout02_metas/index.html"><li id="LiMetas">Metas</li></a>
+                    <a href="../layout07_mentorias/index.html"><li id="LiMentorias">Mentorias</li></a>
+                    <a href="../layout04_cronogramaSugerido/index.html"><li id="LiPlanejamento">Planejamento</li></a>
+                    <a href="../layout05_Conexao/index.html"><li id="LiConexoes">Conexões</li></a>
+                    <a href="../layout06_grupoEstudos/index.html"><li id="LiGrupoEstudos">Grupo de Estudos</li></a>
                 </ul>
             </nav>
             <nav class="RedesSocias">
@@ -71,74 +72,52 @@
         </section>
                      
         <section>
-        <div class="container">         
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="scales">Obter certificações relevantes na área de TI, como CompTIA, Cisco, Microsoft, etc</label>
+            <form id="Metas">
+            <select name="estudos">
+                    <option value="Obter certificações relevantes na área de TI, como CompTIA, Cisco, Microsoft, etc">
+                        Obter certificações relevantes na área de TI, como CompTIA, Cisco, Microsoft, etc</option>
+                    <option value="Aprender programação em uma linguagem específica (por exemplo, Python, JavaScript, Java, etc.)">
+                        Aprender programação em uma linguagem específica (por exemplo, Python, JavaScript, Java, etc.)</option>
+                    <option value="Desenvolver habilidades em análise de dados e estatísticas">
+                        Desenvolver habilidades em análise de dados e estatísticas</option>
+                    <option value="Dominar ferramentas de design gráfico, como Adobe Photoshop, Illustrator ou Sketch">
+                        Dominar ferramentas de design gráfico, como Adobe Photoshop, Illustrator ou Sketch</option>
+                    <option value="Aprender sobre desenvolvimento de aplicativos móveis para iOS ou Android">
+                        Aprender sobre desenvolvimento de aplicativos móveis para iOS ou Android</option>
+                    <option value="Adquirir conhecimento em desenvolvimento web (front-end, back-end ou full-stack)">
+                        Adquirir conhecimento em desenvolvimento web (front-end, back-end ou full-stack)</option>
+                    <option value="Aprimorar habilidades em marketing digital, incluindo SEO, SEM, marketing de conteúdo, entre outros">
+                        Aprimorar habilidades em marketing digital, incluindo SEO, SEM, marketing de conteúdo, entre outros</option>
+                    <option value="Explorar a área de inteligência artificial e aprendizado de máquina">
+                        Explorar a área de inteligência artificial e aprendizado de máquina</option>
+                    <option value="Desenvolver habilidades em gerenciamento de projetos de software, usando metodologias como Agile ou Scrum">
+                        Desenvolver habilidades em gerenciamento de projetos de software, usando metodologias como Agile ou Scrum</option>
+                    <option value="Participar de cursos ou workshops sobre cibersegurança e proteção de dados">
+                        Participar de cursos ou workshops sobre cibersegurança e proteção de dados</option>
+                    <option value="Aprender a criar e gerenciar campanhas de mídia social">
+                        Aprender a criar e gerenciar campanhas de mídia social</option>
+                    <option value="Dominar ferramentas de automação de processos, como RPA (Automação Robótica de Processos)">
+                        Dominar ferramentas de automação de processos, como RPA (Automação Robótica de Processos)</option>
+                    <option value="Aprender sobre blockchain e suas aplicações em diferentes setores">
+                        Aprender sobre blockchain e suas aplicações em diferentes setores</option>
+                    <option value="Desenvolver habilidades em análise de UX/UI (Experiência do Usuário/Interface do Usuário)">
+                        Desenvolver habilidades em análise de UX/UI (Experiência do Usuário/Interface do Usuário)</option>
+                    <option value="Conhecer e aplicar princípios de análise de big data e business intelligence">
+                        Conhecer e aplicar princípios de análise de big data e business intelligence</option>
+            </select>
+            <br>
+            <div class=botao>
+            <button type="submit">Incluir meta</button>
             </div>
-            
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Aprender programação em uma linguagem específica (por exemplo, Python, JavaScript, Java, etc.)</label><i></i>
-            </div>
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Desenvolver habilidades em análise de dados e estatísticas</label><i></i>
-            </div>
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Dominar ferramentas de design gráfico, como Adobe Photoshop, Illustrator ou Sketch</label><i></i>
-            </div>
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Aprender sobre desenvolvimento de aplicativos móveis para iOS ou Android</label><i></i>
-            </div>
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Adquirir conhecimento em desenvolvimento web (front-end, back-end ou full-stack)</label><i></i>
-            </div>
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Aprender programação em uma linguagem específica (por exemplo, Python, JavaScript, Java, etc.)</label><i></i>
-            </div>
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Aprimorar habilidades em marketing digital, incluindo SEO, SEM, marketing de conteúdo, entre outros</label><i></i>
-            </div> 
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Explorar a área de inteligência artificial e aprendizado de máquina</label><i></i>
-            </div> 
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Desenvolver habilidades em gerenciamento de projetos de software, usando metodologias como Agile ou Scrum</label><i></i>
-            </div> 
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Participar de cursos ou workshops sobre cibersegurança e proteção de dados</label><i></i>
-            </div> 
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Aprender a criar e gerenciar campanhas de mídia social</label><i></i>
-            </div> 
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Dominar ferramentas de automação de processos, como RPA (Automação Robótica de Processos)</label><i></i>
-            </div> 
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Aprender sobre blockchain e suas aplicações em diferentes setores</label><i></i>
-            </div> 
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Desenvolver habilidades em análise de UX/UI (Experiência do Usuário/Interface do Usuário)</label><i></i>
-            </div> 
-            <div>
-                <input type="checkbox" id="Estudos" name="Estudos" value="Estudos" /><i></i>
-                <label for="horns">Conhecer e aplicar princípios de análise de big data e business intelligence</label><i></i>
-            </div>          
-        </div>  
-        </section>      
+            </form>
+        </section> 
+        
+        <section class="container">
+            <h1 id="tituloMetas">Gerencie suas metas</h1>
+            <div class="quadroMetas">
+                
+            </div>            
+        </section>
     </main>    
 </body>
 
