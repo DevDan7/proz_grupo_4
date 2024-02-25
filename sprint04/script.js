@@ -32,6 +32,7 @@ LiGrupoEstudos.addEventListener("mouseover", function() {
 });
 
 //evento de mouseout
+
 LiHome.addEventListener("mouseout", function() {
     this.style.backgroundColor = "transparent";
 });
@@ -51,7 +52,6 @@ LiPlanejamento.addEventListener("mouseout", function() {
 LiConexoes.addEventListener("mouseout", function() {
     this.style.backgroundColor = "transparent";
 });
-
 
 LiGrupoEstudos.addEventListener("mouseout", function() {
     this.style.backgroundColor = "transparent";
