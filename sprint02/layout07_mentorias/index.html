@@ -71,7 +71,7 @@
         <section></section>
             <div>
                 <h2 id="novoAgendamento">Inserir novo agendamento</h2>
-                    <form id="agendamento">
+                    <form id="agendamento" onsubmit="return validaForm(this);">
                         <div>
                         <label for="titulo">Título do agendamento:</label>
                         <input type="text" name="titulo" id="titulo">

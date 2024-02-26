@@ -2,6 +2,7 @@
 
 const formulario = document.getElementById("agendamento");
 
+
 // Essa função serve para impedir o comportamento padrão da página de recarregar
 
 formulario.addEventListener("submit", (e)=> {
@@ -35,9 +36,69 @@ agendamento.innerHTML =
 
 agendamento.className = "novoAgendamento"
 
+
 //Capturando elemennto pai e adicionando elemento filho
 
 const agendamentos = document.querySelector(".seusAgendamentos");
 agendamentos.appendChild(agendamento);
 
 });
+
+function validaForm(frm) {
+
+    if(frm.titulo.value == "" || frm.titulo.value == null || frm.titulo.value.lenght < 3) {
+
+        alert("Por favor, indique o Titulo.");
+
+        frm.titulo.focus();
+
+        
+
+        return false;
+    }
+    
+       if(frm.data.value == "" || frm.data.value == null || frm.data.value.lenght < 3) {
+
+        alert("Por favor, indique a data.");
+
+        frm.data.focus();
+
+        return false;
+        
+    }
+    
+       
+       if(frm.horario.value == "" || frm.horario.value == null || frm.horario.value.lenght < 3) {
+
+        alert("Por favor, indique o horario.");
+
+        frm.horario.focus();
+
+        return false;
+        
+    }
+    
+       
+       if(frm.mentor.value == "" || frm.mentor.value == null || frm.mentor.value.lenght < 3) {
+
+        alert("Por favor, indique o  Mentor.");
+
+        frm.mentor.focus();
+
+        return false;
+        
+    }
+    
+       
+       if(frm.assunto.value == "" || frm.assunto.value == null || frm.assunto.value.lenght < 3) {
+
+        alert("Por favor, indique a Assunto.");
+
+        frm.assunto.focus();
+
+        return false;
+        
+    }
+
+  
+}
