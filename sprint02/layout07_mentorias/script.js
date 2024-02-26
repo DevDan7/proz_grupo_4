@@ -8,6 +8,10 @@ const formulario = document.getElementById("agendamento");
 formulario.addEventListener("submit", (e)=> {
     e.preventDefault();
 
+    if (!validaForm(formulario)) {
+        return; // Se a validação falhar, não faz nada
+    }
+
 
 // Objeto que armazena os dados do formulário
 
@@ -100,5 +104,5 @@ function validaForm(frm) {
         
     }
 
-  
+    return true;
 }
