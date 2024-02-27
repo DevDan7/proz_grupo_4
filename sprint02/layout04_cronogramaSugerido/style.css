@@ -1,17 +1,71 @@
-/* {
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body { 
-    display: flex;
-    justify-content: space-between;
+body{ 
+    display: grid;
+    grid-template-rows: 8rem 100% 100%;
+    grid-template-areas: "headerGrid"
+                         "asideGrid" 
+                         "mainGrid";
+    width: 100%;
+
+ /*   justify-content: space-between;
     background-color: #f8f8f8;
     margin: 0 auto;
-    width: 90%;
-    margin-top: 150px;
-    margin-bottom: 1rem;
+    width: 90%;s
+    margin-top: 2rem;
+    margin-bottom: 1rem; */
 }
+
+header  {
+    grid-area: headerGrid;
+    background-color: #BA4848;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#nav-header {
+    background-color: #D87C53;
+}
+
+#nav-header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-header li {
+    background-color: #85AEC0;
+    display: inline;
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+aside {
+    grid-area: asideGrid;
+    background-color: #85AEC0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.RedesSocias ul {
+    background-color: #bA4848;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    grid-area: mainGrid;
+    background-color: #d6d0ae;
+}
+
+/*
 
 header {
     position: fixed;
